@@ -1,0 +1,63 @@
+.header {
+    background-color: black;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-end;
+
+}
+
+.nav{
+
+
+}
+.logo {
+    width: 100px; 
+}
+
+.texto-header{
+    color: white;
+    text-decoration: none;
+    font-size: 25px;
+    font-family: Roboto;
+ }
+
+
+.section-one {
+    display:flex;
+    justify-content: space-around;
+    align-items: flex-end;
+    height: 50vh;
+    font-family: Roboto;
+    font-size: 30px;
+    background-color: rgb(97, 168, 255);
+    color:white;
+}
+
+.dancer {
+    height: 90%;
+}
+
+.button {
+    color: white;
+    background-color: rgb(103, 202, 103);
+    border-radius:7px;
+    border-color: rgb(103, 202, 103);
+}
+
+.section-two {
+    color:black;
+    font-family: Roboto;
+    display:flex;
+
+}
+
+.pie {
+    background-color: black;
+
+}
+.texto-footer{
+    text-decoration: none;
+    font-family: Roboto;
+    color: gray;
+}

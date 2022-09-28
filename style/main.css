@@ -1,18 +1,19 @@
 .header {
     background-color: black;
-    display:flex;
+    display: flex;
     flex-direction: row;
     justify-content: space-around;
     align-items: flex-end;
-
+    position: sticky;
+    top: 0px;
 }
 
-.nav{
-
-
-}
 .logo {
     width: 100px; 
+}
+
+nav{
+
 }
 
 .texto-header{
@@ -24,10 +25,7 @@
 
 
 .section-one {
-    display:flex;
-    justify-content: space-around;
-    align-items: flex-end;
-    height: 50vh;
+    display: inline-block;
     font-family: Roboto;
     font-size: 30px;
     background-color: rgb(97, 168, 255);
@@ -46,10 +44,27 @@
 }
 
 .section-two {
+    display: flex;
+    flex-direction: column;
     color:black;
     font-family: Roboto;
+    font-size: 2rem;
     display:flex;
+}
 
+.dibujos{
+    display: flex;
+    flex-direction: row;
+}
+
+.info{
+    font-family: Roboto;
+    font-size: 1.3rem;
+}
+
+.icons{
+    height: 150px;
+    width: 150px;
 }
 
 .pie {

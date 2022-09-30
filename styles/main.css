@@ -9,7 +9,7 @@
     background-color: black;
     display: flex;
     justify-content: space-between;
-    align-items:center;
+    align-items: center;
 
 }
     .logo{
@@ -51,7 +51,7 @@ button{
     font-size: 20px;
     }
 h3{
-    font-size: 1rem;
+    font-size: 0.7rem;
     font-family:Roboto;
     color: white;
     padding: 15px;
@@ -59,19 +59,38 @@ h3{
 .article{
    width: auto;
    background-color: white;
-   height:
+   height: 500%;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   
+
 }
-p{
+
+.pregunta{
     font-size: 50px;
     font-family: Roboto;
     padding: 15px;
-    text-align: center;
-}
+    text-align: center;}
+
+    .p{
+        color: black;
+
+    }
+
 .footer{
-    width: auto;
-    height: 100px;
+    text-decoration: none;
+    font-family: Roboto;
+    color: gray;
     background-color: black;
 }
+        
+    
+
 @media all and (min-width:480px){
     
   }
+
+@media all and (min-width: 800px) {
+
+}
